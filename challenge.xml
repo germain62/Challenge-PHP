@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.5.4.1deb2ubuntu2
+- https://www.phpmyadmin.net
+-
+- Client :  localhost
+- Généré le :  Lun 30 Janvier 2017 à 14:54
+- Version du serveur :  5.7.17-0ubuntu0.16.04.1
+- Version de PHP :  7.0.13-0ubuntu0.16.04.1
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="dbtest" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="challenge">
+                CREATE TABLE `challenge` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `username` varchar(100) NOT NULL,
+                  `password` varchar(100) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de données :  'dbtest'
+    -->
+    <database name="dbtest">
+        <!-- Table challenge -->
+        <table name="challenge">
+            <column name="id">1</column>
+            <column name="username">germain</column>
+            <column name="password">azerty</column>
+        </table>
+    </database>
+</pma_xml_export>

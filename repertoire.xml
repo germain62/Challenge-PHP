@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.5.4.1deb2ubuntu2
+- https://www.phpmyadmin.net
+-
+- Client :  localhost
+- Généré le :  Lun 30 Janvier 2017 à 14:51
+- Version du serveur :  5.7.17-0ubuntu0.16.04.1
+- Version de PHP :  7.0.13-0ubuntu0.16.04.1
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="dbtest" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="repertoire">
+                CREATE TABLE `repertoire` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `pseudo` varchar(100) NOT NULL,
+                  `prenom` varchar(100) NOT NULL,
+                  `image` varchar(100) NOT NULL,
+                  `mail` varchar(100) NOT NULL,
+                  `jeux` varchar(100) NOT NULL,
+                  `naissance` varchar(100) NOT NULL,
+                  `valide` int(11) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=90 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de données :  'dbtest'
+    -->
+    <database name="dbtest">
+        <!-- Table repertoire -->
+        <table name="repertoire">
+            <column name="id">80</column>
+            <column name="pseudo">firewind</column>
+            <column name="prenom">Francois</column>
+            <column name="image">avatar.jpg</column>
+            <column name="mail">naruto11@hotmail.fr</column>
+            <column name="jeux">smite</column>
+            <column name="naissance">23/07/1991</column>
+            <column name="valide">1</column>
+        </table>
+        <table name="repertoire">
+            <column name="id">81</column>
+            <column name="pseudo">spikee</column>
+            <column name="prenom">Germain</column>
+            <column name="image">avatar.jpg</column>
+            <column name="mail">germain.deliance@gmail.com</column>
+            <column name="jeux">csgo</column>
+            <column name="naissance">24/05/1990</column>
+            <column name="valide">1</column>
+        </table>
+        <table name="repertoire">
+            <column name="id">82</column>
+            <column name="pseudo">Spikee</column>
+            <column name="prenom">germain</column>
+            <column name="image">avatar.jpg</column>
+            <column name="mail">germain.deliance@gmail.com</column>
+            <column name="jeux">csgo</column>
+            <column name="naissance">27/12/1994</column>
+            <column name="valide">1</column>
+        </table>
+        <table name="repertoire">
+            <column name="id">84</column>
+            <column name="pseudo">megami</column>
+            <column name="prenom">francois</column>
+            <column name="image">avatar.jpg</column>
+            <column name="mail">germain.deliance@gmail.com</column>
+            <column name="jeux">smite</column>
+            <column name="naissance">23/07/1991</column>
+            <column name="valide">1</column>
+        </table>
+        <table name="repertoire">
+            <column name="id">85</column>
+            <column name="pseudo">spikee</column>
+            <column name="prenom">germain</column>
+            <column name="image">avatar.jpg</column>
+            <column name="mail">germain.deliance@gmail.com</column>
+            <column name="jeux">csgo</column>
+            <column name="naissance">23/07/1991</column>
+            <column name="valide">1</column>
+        </table>
+    </database>
+</pma_xml_export>

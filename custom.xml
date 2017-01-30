@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.5.4.1deb2ubuntu2
+- https://www.phpmyadmin.net
+-
+- Client :  localhost
+- Généré le :  Lun 30 Janvier 2017 à 14:51
+- Version du serveur :  5.7.17-0ubuntu0.16.04.1
+- Version de PHP :  7.0.13-0ubuntu0.16.04.1
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="dbtest" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="custom">
+                CREATE TABLE `custom` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `title` varchar(100) NOT NULL,
+                  `navbar` varchar(100) NOT NULL,
+                  `url` varchar(100) NOT NULL,
+                  `button` varchar(100) NOT NULL,
+                  `font` varchar(100) NOT NULL,
+                  `fixed` int(11) NOT NULL,
+                  `neige` int(11) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de données :  'dbtest'
+    -->
+    <database name="dbtest">
+        <!-- Table custom -->
+        <table name="custom">
+            <column name="id">1</column>
+            <column name="title">red</column>
+            <column name="navbar">black</column>
+            <column name="url">red</column>
+            <column name="button">rgb(255, 109, 109)</column>
+            <column name="font">Lemonada</column>
+            <column name="fixed">1</column>
+            <column name="neige">0</column>
+        </table>
+        <table name="custom">
+            <column name="id">2</column>
+            <column name="title">yellow</column>
+            <column name="navbar">blue</column>
+            <column name="url">blue</column>
+            <column name="button">blue</column>
+            <column name="font">Lemonada</column>
+            <column name="fixed">1</column>
+            <column name="neige">0</column>
+        </table>
+        <table name="custom">
+            <column name="id">3</column>
+            <column name="title">red</column>
+            <column name="navbar">black</column>
+            <column name="url">red</column>
+            <column name="button">rgba(209, 142, 42, 0.89)</column>
+            <column name="font">Lemonada</column>
+            <column name="fixed">1</column>
+            <column name="neige">1</column>
+        </table>
+        <table name="custom">
+            <column name="id">4</column>
+            <column name="title">red</column>
+            <column name="navbar">black</column>
+            <column name="url">red</column>
+            <column name="button">rgb(255, 109, 109)</column>
+            <column name="font">Lemonada</column>
+            <column name="fixed">1</column>
+            <column name="neige">1</column>
+        </table>
+        <table name="custom">
+            <column name="id">5</column>
+            <column name="title">green</column>
+            <column name="navbar">black</column>
+            <column name="url">green</column>
+            <column name="button">green</column>
+            <column name="font">Lemonada</column>
+            <column name="fixed">1</column>
+            <column name="neige">1</column>
+        </table>
+    </database>
+</pma_xml_export>
